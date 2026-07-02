@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body { font-family: 'Inter', sans-serif; }
+
+.neon-border {
+  box-shadow: 0 0 8px #7c3aed, 0 0 20px #7c3aed33;
+  border-color: #7c3aed;
+}
+
+.neon-green {
+  box-shadow: 0 0 8px #10b981, 0 0 20px #10b98133;
+}
+
+.gradient-btn {
+  background: linear-gradient(135deg, #7c3aed, #06b6d4);
+}
+
+.gradient-btn:hover {
+  background: linear-gradient(135deg, #6d28d9, #0891b2);
+}
